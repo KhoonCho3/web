@@ -1,0 +1,159 @@
+body{
+	background-color: ;
+}
+.nav{
+			display: flex;
+			align-items: center;
+			background-color: ;
+		}
+		.nav_menu{
+			list-style-type: none;
+			display: flex;
+			justify-content: flex-start;	
+			align-items: center;
+			width: 90%;
+			left: 0;right: 0;
+			color: black;
+		}
+		.nav_menu a{
+			text-decoration: none;
+			color: black;
+		}
+		.nav_menu li{
+			display: inline-block;
+			padding: 10px 20px;
+			color: black;
+		}
+		.nav img{
+				align-self: flex-start;
+			}
+		.nav_menu a:hover{
+			background-color: black;
+			color: white;
+		}
+
+		.dropdown_nav{
+			float: left;
+			overflow: hidden;
+		}
+		.dropdown_content{
+			display: none;
+			position: absolute;
+			background-color: gray;
+			min-width: 150px;
+			z-index: 1;
+
+		}
+		.dropdown_nav:hover .dropdown_content{
+			display: block;
+		}
+		.dropdown_content a{
+			color: inherit;
+			display: block;
+			text-align: left;
+			padding: 5px 0px;
+			font-size: inherit;
+			font-family: inherit;
+		}
+		.dropdown_nav button{
+			font-size: inherit;
+			font-family: inherit;
+			border: none;
+			color: inherit;
+			background-color: inherit;
+		}
+
+			.material-symbols-outlined {
+			  font-variation-settings:
+			  'FILL' 0,
+			  'wght' 400,
+			  'GRAD' 0,
+			  'opsz' 48
+			}
+
+			input[type=checkbox]{
+				display: none;
+			}
+			.hamburger {
+				display: none;
+				font-size: 24px;
+				user-select: none;
+			}
+
+
+		@media only screen and (max-width: 700px){
+			.menu { 
+		display:none;
+		position: absolute;
+		background-color:whitesmoke;
+		right: 0;
+		left: 0;
+		text-align: center;
+		padding: 16px 0;
+	}
+
+	.menu li:hover {
+		display: inline-block;
+		background-color:whitesmoke;
+		transition: 0.3s ease;
+	}
+
+	.menu li + li {
+		margin-top: 12px;
+	}
+
+	input[type=checkbox]:checked ~ .menu{
+		display: block;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.dropdown {
+		left: 50%;
+		top: 30px;
+		transform: translateX(35%);
+	}
+
+	.dropdown li:hover {
+		background-color: whitesmoke;
+	}
+}
+
+		}
+
+	div.col{
+		width: 100%;  }
+		
+	
+		div.col1{
+			float: Left;
+			width: 25%;
+			height: 500px;
+			background-color: deepskyblue;
+
+		}
+		div.col2{
+			float: Left;
+			width: 50%;
+			height: 500px;
+			color: white;
+			background-color: deepskyblue;
+			 }
+		div.boder{
+			background-color: dodgerblue;
+			border: 9px solid dodgerblue;
+			padding: 3px;
+			margin: 20px;
+		}
+
+		
+		div.col3{
+			float: Left;
+			width: 25%;
+			height: 500px;
+			background-color: deepskyblue;
+
+		}
+

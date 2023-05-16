@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grade-3</title>
+	<link rel="icon" type="image/x-icon" href="D:\EDUSN\web\for pbl/logo.png">
+	<style type="text/css">
+		.nav{
+			display: flex;
+			background-color: ;
+		}
+		.nav_menu{
+			list-style-type: none;
+			display: flex;
+			justify-content: flex-start;	
+			width: 90%;
+
+		}
+		.nav_menu a{
+			text-decoration: none;
+		}
+		.nav_menu li{
+			display: inline-block;
+			padding: 10px 20px;
+		}
+		.nav img{
+				align-self: flex-start;
+			}
+		.nav_menu a:hover{
+			background-color: deepskyblue;
+			color: white;
+		}
+
+		.dropdown_nav{
+			float: left;
+			overflow: hidden;
+		}
+		.dropdown_content{
+			display: none;
+			position: absolute;
+			background-color: whitesmoke;
+			min-width: 150px;
+			z-index: 1;
+
+		}
+		.dropdown_nav:hover .dropdown_content{
+			display: block;
+		}
+		.dropdown_content a{
+			color: inherit;
+			display: block;
+			text-align: left;
+			padding: 5px 0px;
+			font-size: inherit;
+			font-family: inherit;
+		}
+		.dropdown_nav button{
+			font-size: inherit;
+			font-family: inherit;
+			border: none;
+			color: inherit;
+			background-color: inherit;
+		}
+
+			.material-symbols-outlined {
+			  font-variation-settings:
+			  'FILL' 0,
+			  'wght' 400,
+			  'GRAD' 0,
+			  'opsz' 48
+			}
+
+			input[type=checkbox]{
+				display: none;
+			}
+			.hamburger {
+				display: none;
+				font-size: 24px;
+				user-select: none;
+			}
+
+
+		@media only screen and (max-width: 700px){
+			.menu { 
+		display:none;
+		position: absolute;
+		background-color:whitesmoke;
+		right: 0;
+		left: 0;
+		text-align: center;
+		padding: 16px 0;
+	}
+
+	.menu li:hover {
+		display: inline-block;
+		background-color:deepskyblue;
+		transition: 0.3s ease;
+	}
+
+	.menu li + li {
+		margin-top: 12px;
+	}
+
+	input[type=checkbox]:checked ~ .menu{
+		display: block;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.dropdown {
+		left: 50%;
+		top: 30px;
+		transform: translateX(35%);
+	}
+
+	.dropdown li:hover {
+		background-color: whitesmoke;
+	}
+}
+		}
+		.logo{
+			font-family:cursive ;}
+		h1,h2,img{text-align: center;}
+		form{
+			font-style:curise;
+			color: deeppink;
+		}
+		input{
+			border-radius: 10px;
+			color: deeppink;
+		}
+		.footer{
+			width: 100%;
+			height: 200px;
+			float: left;
+			background-color: ;
+		  }
+		  .part1{
+		  	float: left;
+		  	width: 100%;
+		  	height: 100px;
+		  	background-color: ;
+		  }
+		  .part2{
+		  	float: left;
+		  	width: 15%;
+		  	height: 250px;
+		  	background-color: ;
+		  }
+		  .part3{
+		  	float: left;
+		  	width: 35%;
+		  	height: 250px;
+		  	background-color: ;
+		  }
+
+		  .par4{
+		  	width: 35%;
+		  	height: 250px;
+		  	background-color: ;
+		  }
+	</style>
+</head>
+<body>
+	<div class="nav"><a href="home.html"> <img src="logo.png" width="100px" height="100px"></a>
+		<ul class="nav_menu">
+
+		<input type="checkbox" id="checkbox_toggle" />
+		<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+		
+		<div class="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<div class="dropdown_nav">
+		<li>
+		<button>Test<i class="material-symbols-outlined"></i></button>
+		<div class="dropdown_content">
+			<a href="grade1.html">grade 1</a>
+			<a href="grade2.html"> grade 2</a>
+			<a href="grade3.html">grade 3</a>
+			<a href="grade4.html">grade 4</a>
+			<a href="grade5.html"> grade 5</a>
+			<a href="grade6.html">grade 6</a>
+	</div>
+
+	<div class="dropdown_nav">
+		<li>
+		<button>Learning<i class="material-symbols-outlined"></i></button>
+		<div class="dropdown_content">
+			<a href="g1 learn.html">grade 1</a>
+			<a href="g2 learn.html"> grade 2</a>
+			<a href="g3 learn.html">grade 3</a>
+			<a href="g4 learn.html">grade 4</a>
+			<a href="g5 learn.html"> grade 5</a>
+			<a href="g6 learn.html">grade 6</a>
+	</div>
+</div>
+	</li>
+
+</ul>
+	</div>
+	</div>
+	<div class="logo">	
+	<h1><a href="home.html"></a>Future Stars</h1>
+	<h2>Grade-3</h2></div>
+
+	<div class="text">
+		<div class="t1">
+			<h1>Resources to Guide Third-graders to the Next Level</h1>
+			<img src="https://media.healthdirect.org.au/images/inline/w700/baby-teeth_fgk85f-9a945e.jpg">
+			<h3>
+			Third grade marks the center of elementary education. New adult teeth have replaced the baby ones that were there just the year before. With bigger teeth come bigger challenges as school starts gets more serious. The resource library is stocked with popular skills-based games, comprehensive workbooks, and easy-to-follow lesson plans that will help third-graders rise to the occasion.</h3>
+		</div>
+		<div class="t2">
+			<img src="https://imgs.edhelper.com/clipart/pdfbookweeklymath38_grade3.jpg">
+			<h3>Hundreds of highly-rated worksheets created by expert educators are available for download in the library. The activities run the gamut of the third-grade curriculum with lessons on fractions, multiplication and division, word problems to test comprehension and figurative language practice.
+			</h3>
+		</div>
+		<div class="t3">
+			<img src="https://litinfocus.com/wp-content/uploads/2019/03/wordpartssquare2.jpg" width="400px" height="300px">
+			<h3>Guided lesson plans with suggested time instructions help parents and teachers effectively execute comprehensive exercises. Subjects range from root word prefixes to the difference between facts and opinions. The alluring activities have practical, real-world purposes that third-graders can take beyond the study desk.
+			</h3>
+		</div>
+		<div class="t3">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjzmY3kw7arYEQRsGjEL2UU6OTxmAdGovYF6i6ghaSm9TpgVeEdaDLB13jl-rXtDZhZsY&usqp=CAU">
+			<h3>In addition to classic worksheet and lesson plan methods, the Learning Library’s entertaining online games, hands-on activities, and interesting science projects add a layer of engagement to education that helps growing brains absorb and retain new information.
+			</h3>
+		</div>
+	</div>
+	<div class="footer">
+		
+		<div class="part1"></div>
+
+		<div class="part2"></div>
+
+		<div class="part3">
+		<a href="home.html"><img src="logo.png" width="300px" height="250px"></a>
+		</div>
+
+		<div class="part4">
+			<a href=""><p>About Us</p></a>
+			<a href=""><p>Home</p></a>
+			<a href=""><p>Contact Us</p></a>
+			<a href=""><p>Terms of Use</p>
+					   <p>Privacy Policy</p>
+					   <p>©2023 FutherStar</p>
+			</a>
+		</div>
+</body>
+</html>
